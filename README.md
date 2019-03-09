@@ -1,5 +1,5 @@
 # javascript-30
-[30 Day Vanilla JS Coding Challenge](https://javascript30.com)
+[30 Day Vanilla JS Coding Challenge](https://javascript30.com)  
 No Frameworks × No Compilers × No Libraries × No Boilerplate
 
 Marathon de 30 mini-projets en JavaScript pur. 
