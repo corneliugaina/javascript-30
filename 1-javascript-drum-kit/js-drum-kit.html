@@ -66,9 +66,14 @@
 
         });
 
+        function removingTransition (e) {
+            if (e.propertyName !== 'transform') return
+            
+            console.log(e.property);
+        }
+
         const keys = document.querySelectorAll('.key');
-        keys.forEach(key => keys.addEventListener('transitionend',)
- );
+        keys.forEach(key => keys.addEventListener('transitionend', removeTransition));
     </script>
 
 
