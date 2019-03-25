@@ -63,17 +63,17 @@
             audio.currentTime = 0; // remet le son instantanement a zero
             audio.play();
             key.classList.add('playing'); // on va ajouter la classe lors de l'appel de la fonction
-
         });
 
-        function removingTransition (e) {
-            if (e.propertyName !== 'transform') return
+        function removeTransition (e) {
+            if (e.propertyName !== 'transform') return; // sauter l'etape si ce n'est pas un transform
             
             console.log(e.property);
+            this.classList.remove('playing');
         }
 
         const keys = document.querySelectorAll('.key');
-        keys.forEach(key => keys.addEventListener('transitionend', removeTransition));
+        keys.forEach(key => key.addEventListener('transitionend', removeTransition));
     </script>
 
 
