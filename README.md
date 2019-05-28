@@ -27,6 +27,7 @@ Pour cet exercice, il a fallu creer une fonction sur l'objet Window, et qui etai
 Chaque touche/son ainsi joue est accompagne d'une transition CSS, mettant en subrillance le bouton. Apres la transition, le bouton revenait a l'etat initial.  
 Le plus difficile etait de comprendre comment articuler la fonction qui appellait le son et l'animation visuelle du bouton (transition).  
 
-## 2 - Javascript / CSS Clock ( mars 2019) 
+## 2 - Javascript / CSS Clock ( fin 28 mai 2019) 
 
+Réaliser une horloge en JS/CSS. 
 
