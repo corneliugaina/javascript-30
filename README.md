@@ -19,15 +19,77 @@ Il y a differentes manieres d'accomplir les mini-projets. C'est normal d'essayer
 
 ## 1 - JavaScript Drum Kit (fin 25 mars 2019)
 
-### 1.1 Objectif - Logs - Resultat - Acquisition
-
 Realiser une batterie virtuelle sur une page HTML... en JavaScript. Chaque touche est associee a un son et le declenchement d'evenements par des scripts lance le son correspondant.  
 Sur un clavier, chaque touche a un keycode (1 a 3 chiffres) pouvant etre utilises pour l'appel d'une fonction ou d'un evenement.  
 Pour cet exercice, il a fallu creer une fonction sur l'objet Window, et qui etait appelle selon la touche selectionnee sur le clavier QWERTY (A - L).  
 Chaque touche/son ainsi joue est accompagne d'une transition CSS, mettant en subrillance le bouton. Apres la transition, le bouton revenait a l'etat initial.  
 Le plus difficile etait de comprendre comment articuler la fonction qui appellait le son et l'animation visuelle du bouton (transition).  
 
+CSS: 
+transform,
+transition,
+
+JS: 
+addEventListener,
+querySelector,
+keycodes,
+audio.play(),
+forEach
+
 ## 2 - Javascript / CSS Clock ( fin 28 mai 2019) 
 
-Réaliser une horloge en JS/CSS. 
+Réaliser une horloge en JS/CSS avec les aiguilles - seconde/minute/heure - qui bougent sur un axe.
 
+CSS : 
+transition, 
+transition-timing-function, 
+transform, 
+cubic-bezier.
+
+JS: 
+function setDate(), 
+querySelector, 
+playing with time + degrees, 
+template litteral, 
+setInterval, 
+
+## 3 Update CSS with Javascript
+
+Nommer et appliquer des variables sur des propriétés CSS. Ici l'exercice des de construire des slides pour modifier des propriétés manuellement sur le navigateur. 
+
+CSS: 
+filter, 
+blur, 
+spacing.
+
+JS: 
+QuerySelectorAll, 
+setProperty, 
+forEach, 
+addEventListener.
+
+## 4 Array Cardio Day 1
+
+Workout sur les Array (tableaux) en javascript, travail seulement sur la console donc. 
+
+CSS: /
+
+JS: 
+.filter(), 
+.map(), 
+.sort(), 
+.reduce(),
+
+## 5 Flex Panel Gallery
+
+Une gallerie de panneaux disposés en flex, qui s'étendent au clic. Intéressant pour une implémentation dans un site avec disposition de contenus.
+
+CSS:
+flex,
+transform (translateY),
+nth-child,
+
+
+JS:
+toggle
+(querySelector, forEach, event listener,...)
