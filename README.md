@@ -93,3 +93,12 @@ nth-child,
 JS:
 toggle
 (querySelector, forEach, event listener,...)
+
+
+## 6 Ajax Type Ahead 
+
+Barre pour recherche parmi 1000 plus grandes villes américaines (avec leur Etat et population). Difficulté à comprendre; revoir les fonctions, DOM, ajax, fetch et les expressions régulières. 
+
+CSS: 
+
+JS: .map , querySelector, eventListener, .replace, ${template litterals}, .filter, RegEx.
